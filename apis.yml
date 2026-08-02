@@ -1,8 +1,27 @@
 aid: the-farmer-and-8217-s-dog
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/the-farmer-and-8217-s-dog.png
 name: The Farmer&#8217;s Dog
-description: 'The Farmer&#8217;s Dog is a company surfaced as a portfolio company of insight-partners
-  and added to the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is
-  a lead awaiting the enrichment pipeline.'
+description: 'The Farmer&#8217;s Dog is a New York-based direct-to-consumer pet health
+  company that makes fresh, human-grade dog food. Founded in 2014 by Brett Podolsky
+  and Jonathan Regev, it builds personalized meal plans from each dog''s profile and
+  delivers pre-portioned, gently cooked meals on a recurring subscription, shipping
+  nationwide across the United States from its own food-safety-standard kitchens. The
+  company is a consumer-brand portfolio company of Insight Partners. It operates a
+  public marketing/commerce website and a GitHub organization (github.com/farmersdog)
+  of internal tooling, but does not publish a public developer API; this profile was
+  surfaced as a portfolio lead and enriched with the honest finding that there is no
+  public API surface.'
 url: https://raw.githubusercontent.com/api-evangelist/the-farmer-and-8217-s-dog/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +31,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Consumer
+- Pet Food
+- Direct to Consumer
+- Subscription
+- E-Commerce
+- Pet Care
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +47,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/the-farmer-and-8217-s-dog-domain-security.yml
 - type: Website
   url: https://thefarmersdog.com/
+- type: GitHubOrganization
+  url: https://github.com/farmersdog
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
